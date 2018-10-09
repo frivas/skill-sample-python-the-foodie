@@ -1,0 +1,102 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.dbca09b3-588b-4aea-a242-747db9adc929",
+		"application": {
+			"applicationId": "amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949"
+		},
+		"attributes": {
+			"profile": {
+				"name": "",
+				"allergies": "",
+				"diet": "",
+				"location": {
+					"address": {
+						"city": "",
+						"state": "",
+						"zip": ""
+					},
+					"timezone": "Europe/Madrid"
+				}
+			},
+			"isNew": true,
+			"recommendations": {
+				"previous": {
+					"meal": "",
+					"restaurant": ""
+				},
+				"current": {
+					"meals": [],
+					"restaurants": []
+				}
+			},
+			"timeOfDay": "lunch"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AHNPDT5MBXJ3QE2BF2BOEJI7YUASSJ57JSXXEGEWHK4UIQ3JQCYOOINY4RWDSMCJWO7HYWYUWCJZZ6RVJH25MBBNZAW25RR4C5FLCS274GKKWKWRY2YMVYRYYYFWE44QANHS5D65VUCXV23QT3C4GNO5HUK5SZXUCO5HR5VGTA2EBLRNCYICDVLLKVJEJJWYCH3UVC7QS5HORII"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AHNPDT5MBXJ3QE2BF2BOEJI7YUASSJ57JSXXEGEWHK4UIQ3JQCYOOINY4RWDSMCJWO7HYWYUWCJZZ6RVJH25MBBNZAW25RR4C5FLCS274GKKWKWRY2YMVYRYYYFWE44QANHS5D65VUCXV23QT3C4GNO5HUK5SZXUCO5HR5VGTA2EBLRNCYICDVLLKVJEJJWYCH3UVC7QS5HORII"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AGEP5BNRNCMVQRWJUHGVLKZLNPAHOFURH5E5SXP4QYGD7MHZWJ2AQR43Z62LMEKQ27OR6Y5L3VSKOKQV2CHVNYBEWEO5QHC6BVAIZMCAATBMJSDV4L7OMDRV7P5HX2SJMNAIC4UKQB7YZHDGIFSZA5AGXPL3QMB6HY4CKLSZM35LSKIBLB5J2",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.eu.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdjMjJiMGFmLWU1N2YtNDhjNi1hMTY0LTc0NTQ4NzkwNTk0OSIsImV4cCI6MTUzOTAxMjA3OCwiaWF0IjoxNTM5MDA4NDc4LCJuYmYiOjE1MzkwMDg0NzgsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdFUDVCTlJOQ01WUVJXSlVIR1ZMS1pMTlBBSE9GVVJINUU1U1hQNFFZR0Q3TUhaV0oyQVFSNDNaNjJMTUVLUTI3T1I2WTVMM1ZTS09LUVYyQ0hWTllCRVdFTzVRSEM2QlZBSVpNQ0FBVEJNSlNEVjRMN09NRFJWN1A1SFgyU0pNTkFJQzRVS1FCN1laSERHSUZTWkE1QUdYUEwzUU1CNkhZNENLTFNaTTM1TFNLSUJMQjVKMiIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFITlBEVDVNQlhKM1FFMkJGMkJPRUpJN1lVQVNTSjU3SlNYWEVHRVdISzRVSVEzSlFDWU9PSU5ZNFJXRFNNQ0pXTzdIWVdZVVdDSlpaNlJWSkgyNU1CQk5aQVcyNVJSNEM1RkxDUzI3NEdLS1dLV1JZMllNVllSWVlZRldFNDRRQU5IUzVENjVWVUNYVjIzUVQzQzRHTk81SFVLNVNaWFVDTzVIUjVWR1RBMkVCTFJOQ1lJQ0RWTExLVkpFSkpXWUNIM1VWQzdRUzVIT1JJSSJ9fQ.kIuOoOFz384nW0FLRcQD1gJ36oyIdp6Zlic-_Eo0wl2jioT4NrLAcF2dmK7jsdK34I4Zcg6U53CUL-6yQI6jo64vMpeMSFbwGmeACHes2xGyMJkrsjZy4XKgN9Hx4o97kYLgUq9bb_07lbQMXcU9Gg_X-zOIayM-aaH7DQTsJ29IfDK7nyOha6PRfXXtWsaoKgTmj9vsA0cGfwIx5QGoTEvH_7OF2pUdAVwGzRzU3EYa3qhZ8T9NhHwWNsd-uDi9JwtsMJ1sSsivU0RKN61H3j655Oug44H-7buyOV8EfzkFwraf_gGIs7rUkJatGQNRO7Z2WzxoPtLHQ_mz5T0N3A"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.1929b241-a4e9-43bc-a30e-93baa799b7cb",
+		"timestamp": "2018-10-08T14:21:18Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "RecommendationIntent",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"allergies": {
+					"name": "allergies",
+					"confirmationStatus": "NONE"
+				},
+				"meal": {
+					"name": "meal",
+					"confirmationStatus": "NONE"
+				},
+				"name": {
+					"name": "name",
+					"value": "Francisco",
+					"confirmationStatus": "NONE"
+				},
+				"cuisine": {
+					"name": "cuisine",
+					"confirmationStatus": "NONE"
+				},
+				"diet": {
+					"name": "diet",
+					"confirmationStatus": "NONE"
+				},
+				"deliveryOption": {
+					"name": "deliveryOption",
+					"confirmationStatus": "NONE"
+				},
+				"portionSize": {
+					"name": "portionSize",
+					"confirmationStatus": "NONE"
+				},
+				"timeOfDay": {
+					"name": "timeOfDay",
+					"confirmationStatus": "NONE"
+				}
+			}
+		},
+		"dialogState": "STARTED"
+	}
+}

@@ -1,0 +1,166 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.dbca09b3-588b-4aea-a242-747db9adc929",
+		"application": {
+			"applicationId": "amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949"
+		},
+		"attributes": {
+			"RecommendationIntent": {
+				"name": "RecommendationIntent",
+				"confirmationStatus": "NONE",
+				"slots": {
+					"allergies": {
+						"name": "allergies",
+						"confirmationStatus": "NONE"
+					},
+					"meal": {
+						"name": "meal",
+						"confirmationStatus": "NONE"
+					},
+					"name": {
+						"name": "name",
+						"confirmationStatus": "NONE"
+					},
+					"cuisine": {
+						"name": "cuisine",
+						"confirmationStatus": "NONE"
+					},
+					"diet": {
+						"name": "diet",
+						"confirmationStatus": "NONE"
+					},
+					"deliveryOption": {
+						"name": "deliveryOption",
+						"confirmationStatus": "NONE"
+					},
+					"portionSize": {
+						"name": "portionSize",
+						"confirmationStatus": "NONE"
+					},
+					"timeOfDay": {
+						"name": "timeOfDay",
+						"confirmationStatus": "NONE",
+						"value": "lunch"
+					}
+				}
+			},
+			"profile": {
+				"name": "",
+				"allergies": "",
+				"diet": "",
+				"location": {
+					"address": {
+						"city": "",
+						"state": "",
+						"zip": ""
+					},
+					"timezone": "Europe/Madrid"
+				}
+			},
+			"isNew": true,
+			"recommendations": {
+				"previous": {
+					"meal": "",
+					"restaurant": ""
+				},
+				"current": {
+					"meals": [],
+					"restaurants": []
+				}
+			},
+			"timeOfDay": "lunch"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AHNPDT5MBXJ3QE2BF2BOEJI7YUASSJ57JSXXEGEWHK4UIQ3JQCYOOINY4RWDSMCJWO7HYWYUWCJZZ6RVJH25MBBNZAW25RR4C5FLCS274GKKWKWRY2YMVYRYYYFWE44QANHS5D65VUCXV23QT3C4GNO5HUK5SZXUCO5HR5VGTA2EBLRNCYICDVLLKVJEJJWYCH3UVC7QS5HORII"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AHNPDT5MBXJ3QE2BF2BOEJI7YUASSJ57JSXXEGEWHK4UIQ3JQCYOOINY4RWDSMCJWO7HYWYUWCJZZ6RVJH25MBBNZAW25RR4C5FLCS274GKKWKWRY2YMVYRYYYFWE44QANHS5D65VUCXV23QT3C4GNO5HUK5SZXUCO5HR5VGTA2EBLRNCYICDVLLKVJEJJWYCH3UVC7QS5HORII"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AGEP5BNRNCMVQRWJUHGVLKZLNPAHOFURH5E5SXP4QYGD7MHZWJ2AQR43Z62LMEKQ27OR6Y5L3VSKOKQV2CHVNYBEWEO5QHC6BVAIZMCAATBMJSDV4L7OMDRV7P5HX2SJMNAIC4UKQB7YZHDGIFSZA5AGXPL3QMB6HY4CKLSZM35LSKIBLB5J2",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.eu.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdjMjJiMGFmLWU1N2YtNDhjNi1hMTY0LTc0NTQ4NzkwNTk0OSIsImV4cCI6MTUzOTAxMjA5OCwiaWF0IjoxNTM5MDA4NDk4LCJuYmYiOjE1MzkwMDg0OTgsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdFUDVCTlJOQ01WUVJXSlVIR1ZMS1pMTlBBSE9GVVJINUU1U1hQNFFZR0Q3TUhaV0oyQVFSNDNaNjJMTUVLUTI3T1I2WTVMM1ZTS09LUVYyQ0hWTllCRVdFTzVRSEM2QlZBSVpNQ0FBVEJNSlNEVjRMN09NRFJWN1A1SFgyU0pNTkFJQzRVS1FCN1laSERHSUZTWkE1QUdYUEwzUU1CNkhZNENLTFNaTTM1TFNLSUJMQjVKMiIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFITlBEVDVNQlhKM1FFMkJGMkJPRUpJN1lVQVNTSjU3SlNYWEVHRVdISzRVSVEzSlFDWU9PSU5ZNFJXRFNNQ0pXTzdIWVdZVVdDSlpaNlJWSkgyNU1CQk5aQVcyNVJSNEM1RkxDUzI3NEdLS1dLV1JZMllNVllSWVlZRldFNDRRQU5IUzVENjVWVUNYVjIzUVQzQzRHTk81SFVLNVNaWFVDTzVIUjVWR1RBMkVCTFJOQ1lJQ0RWTExLVkpFSkpXWUNIM1VWQzdRUzVIT1JJSSJ9fQ.YeeLP_eK91uLq8fiaTe0slqrGxDqtRm_ByPtS8fiFn6Qa__Ij_Ur8cKZWSPW1PFC_pW8YeYW2HjyWG3XCtTPztuLUBbmU8XFBrpRhIP0BRQ0g7UxhERegWjQLgx5FQ-3qARMkpy2dWlfxERAwk_6--ncgGQHvy8bK1sKo52dqYjao-4eb7JrzxL05rWa1-nAIliemq-eT3e-_mgXVx0P3HQTa2j-AuP7C4T-Rf9IMNVeRPNtwaEbNRbK3fDQRfmLzvc448UhK77N87b6fjefAgeU91RtYs1_KIPusq0qqmTWJdFT5ULHx-MSzxPXZyv67dFxO82OwFOpR33V9s_QxA"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.bae15add-7491-4bcf-813f-5636ae380e98",
+		"timestamp": "2018-10-08T14:21:38Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "RecommendationIntent",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"allergies": {
+					"name": "allergies",
+					"confirmationStatus": "NONE"
+				},
+				"meal": {
+					"name": "meal",
+					"confirmationStatus": "NONE"
+				},
+				"name": {
+					"name": "name",
+					"confirmationStatus": "NONE"
+				},
+				"cuisine": {
+					"name": "cuisine",
+					"value": "spicy",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949.cuisineType",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "korean",
+											"id": "9d42bc52034504306fc80b80aaa94a7c"
+										}
+									},
+									{
+										"value": {
+											"name": "spanish",
+											"id": "4757b7df2140d47d35c37e54a70ad41d"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				},
+				"diet": {
+					"name": "diet",
+					"confirmationStatus": "NONE"
+				},
+				"deliveryOption": {
+					"name": "deliveryOption",
+					"confirmationStatus": "NONE"
+				},
+				"portionSize": {
+					"name": "portionSize",
+					"confirmationStatus": "NONE"
+				},
+				"timeOfDay": {
+					"name": "timeOfDay",
+					"value": "lunch",
+					"confirmationStatus": "NONE"
+				}
+			}
+		},
+		"dialogState": "IN_PROGRESS"
+	}
+}

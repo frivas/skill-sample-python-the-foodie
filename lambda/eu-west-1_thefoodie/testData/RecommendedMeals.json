@@ -1,0 +1,291 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.577800fa-8cff-497c-9285-1b43b7c26438",
+		"application": {
+			"applicationId": "amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949"
+		},
+		"attributes": {
+			"RecommendationIntent": {
+				"name": "RecommendationIntent",
+				"confirmationStatus": "NONE",
+				"slots": {
+					"allergies": {
+						"name": "allergies",
+						"value": "peanuts",
+						"resolutions": {
+							"resolutionsPerAuthority": [
+								{
+									"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949.allergyType",
+									"status": {
+										"code": "ER_SUCCESS_MATCH"
+									},
+									"values": [
+										{
+											"value": {
+												"name": "peanuts",
+												"id": "6e932d615f16a74d3cfe0c42f30a541d"
+											}
+										}
+									]
+								}
+							]
+						},
+						"confirmationStatus": "NONE",
+						"source": "USER"
+					},
+					"meal": {
+						"name": "meal",
+						"value": "domi maeuntang",
+						"confirmationStatus": "NONE",
+						"source": "USER"
+					},
+					"name": {
+						"name": "name",
+						"confirmationStatus": "NONE"
+					},
+					"cuisine": {
+						"name": "cuisine",
+						"value": "Korean",
+						"resolutions": {
+							"resolutionsPerAuthority": [
+								{
+									"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949.cuisineType",
+									"status": {
+										"code": "ER_SUCCESS_MATCH"
+									},
+									"values": [
+										{
+											"value": {
+												"name": "korean",
+												"id": "9d42bc52034504306fc80b80aaa94a7c"
+											}
+										}
+									]
+								}
+							]
+						},
+						"confirmationStatus": "NONE",
+						"source": "USER"
+					},
+					"diet": {
+						"name": "diet",
+						"value": "vegetarian",
+						"resolutions": {
+							"resolutionsPerAuthority": [
+								{
+									"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949.dietType",
+									"status": {
+										"code": "ER_SUCCESS_MATCH"
+									},
+									"values": [
+										{
+											"value": {
+												"name": "vegetarian",
+												"id": "2b65cd61d1dda6ee966527dd979a6976"
+											}
+										}
+									]
+								}
+							]
+						},
+						"confirmationStatus": "NONE",
+						"source": "USER"
+					},
+					"deliveryOption": {
+						"name": "deliveryOption",
+						"confirmationStatus": "NONE"
+					},
+					"portionSize": {
+						"name": "portionSize",
+						"confirmationStatus": "NONE"
+					},
+					"timeOfDay": {
+						"name": "timeOfDay",
+						"value": "midnight",
+						"confirmationStatus": "NONE",
+						"source": "USER"
+					}
+				}
+			},
+			"profile": {
+				"name": "",
+				"allergies": "peanuts",
+				"diet": "vegetarian",
+				"location": {
+					"address": {
+						"city": "",
+						"state": "",
+						"zip": ""
+					},
+					"timezone": "Europe/Madrid"
+				}
+			},
+			"isNew": true,
+			"recommendations": {
+				"previous": {
+					"meal": "",
+					"restaurant": ""
+				},
+				"current": {
+					"meals": [
+						"Domi Maeuntang",
+						"Mae Un Tang",
+						"Daegu Jorim"
+					],
+					"restaurants": []
+				}
+			},
+			"timeOfDay": "midnight"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AG2IF7ESFADNI5X6KTAQF4V7SDNIMPZX5GDCH3PDOVTE4WK3EKYJMGUK7TF6ZI2KRKNRQZ5AQIKCGMDVLHVIGVTMRRSXW2EGAZ4I2KYQ5UW7X6PMIGBNF6HJPJE4IGOF3C7NZTDKVC6PDY5UNLDIIBZALSMPDZW3YEIRASZCJFY6QCXKY3JVLAUDQTEC2PRIPSJ5N3ES6IRBOEY"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AG2IF7ESFADNI5X6KTAQF4V7SDNIMPZX5GDCH3PDOVTE4WK3EKYJMGUK7TF6ZI2KRKNRQZ5AQIKCGMDVLHVIGVTMRRSXW2EGAZ4I2KYQ5UW7X6PMIGBNF6HJPJE4IGOF3C7NZTDKVC6PDY5UNLDIIBZALSMPDZW3YEIRASZCJFY6QCXKY3JVLAUDQTEC2PRIPSJ5N3ES6IRBOEY"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AHR3MR5MXGTL2AXC7PTHYIW6NQFIDYXOA5W3MFZV4NUR5L6S53AXCQ2B45ZRYJEMSBXVBYUG25V34SACXG4RFGR2W6VLA7HAMXITGXQ34VJRRX2JNRDLCL5IVDUX37XYCZNJQ2BQIEJL4HZQ6LI4VV2ZKELW2DEFTZPD2VLGVJ26XSPKQXA5G",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.eu.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdjMjJiMGFmLWU1N2YtNDhjNi1hMTY0LTc0NTQ4NzkwNTk0OSIsImV4cCI6MTUzOTA0OTc5MiwiaWF0IjoxNTM5MDQ2MTkyLCJuYmYiOjE1MzkwNDYxOTIsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUhSM01SNU1YR1RMMkFYQzdQVEhZSVc2TlFGSURZWE9BNVczTUZaVjROVVI1TDZTNTNBWENRMkI0NVpSWUpFTVNCWFZCWVVHMjVWMzRTQUNYRzRSRkdSMlc2VkxBN0hBTVhJVEdYUTM0VkpSUlgySk5SRExDTDVJVkRVWDM3WFlDWk5KUTJCUUlFSkw0SFpRNkxJNFZWMlpLRUxXMkRFRlRaUEQyVkxHVkoyNlhTUEtRWEE1RyIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHMklGN0VTRkFETkk1WDZLVEFRRjRWN1NETklNUFpYNUdEQ0gzUERPVlRFNFdLM0VLWUpNR1VLN1RGNlpJMktSS05SUVo1QVFJS0NHTURWTEhWSUdWVE1SUlNYVzJFR0FaNEkyS1lRNVVXN1g2UE1JR0JORjZISlBKRTRJR09GM0M3TlpUREtWQzZQRFk1VU5MRElJQlpBTFNNUERaVzNZRUlSQVNaQ0pGWTZRQ1hLWTNKVkxBVURRVEVDMlBSSVBTSjVOM0VTNklSQk9FWSJ9fQ.AR5t1YKqzkJkbpTk8Wff3HdDSCSrhqz_MtenWKoiyHLO05OF7qKCgiLK0H13drfv0chbxhf33IUaWIhPDE21lVwu322MhANTfd10igihEpDetUfrlAxdvosvI6XZtwx8y9Kn8bTXa5Iu8Qh-43bZhaoTH5hRbYv8KbMDUCd1MLwuWZpv-m2JrwG4CPwLmirmuRl3AY7Jso6pV77lFS3VPQsK9bWmacF7arv3Y_Ujw2Z6B1VxxXzksUP3w2LyKOJjw0v1g_BZDAdxWoVbI538xDLAx0NnijUllVaOSFWL6ow8k3c6XAlT1_ORMj-y_fhVvcSex84EuFSlBKZjjZ3V7Q"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.d577b1f2-92d6-405b-97a9-62f93599f6b9",
+		"timestamp": "2018-10-09T00:49:52Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "RecommendationIntent",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"allergies": {
+					"name": "allergies",
+					"value": "peanuts",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949.allergyType",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "peanuts",
+											"id": "6e932d615f16a74d3cfe0c42f30a541d"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"meal": {
+					"name": "meal",
+					"value": "domi maeuntang",
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"name": {
+					"name": "name",
+					"confirmationStatus": "NONE"
+				},
+				"cuisine": {
+					"name": "cuisine",
+					"value": "Korean",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949.cuisineType",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "korean",
+											"id": "9d42bc52034504306fc80b80aaa94a7c"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"diet": {
+					"name": "diet",
+					"value": "vegetarian",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949.dietType",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "vegetarian",
+											"id": "2b65cd61d1dda6ee966527dd979a6976"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"portionSize": {
+					"name": "portionSize",
+					"confirmationStatus": "NONE"
+				},
+				"deliveryOption": {
+					"name": "deliveryOption",
+					"value": "delivery",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7c22b0af-e57f-48c6-a164-745487905949.deliveryOptionType",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "delivery",
+											"id": "7108537956afa2a526f96cc9da7b0c36"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"timeOfDay": {
+					"name": "timeOfDay",
+					"value": "midnight",
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				}
+			}
+		},
+		"dialogState": "IN_PROGRESS"
+	}
+}
